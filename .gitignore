@@ -1,0 +1,10 @@
+# Local Terraform files
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# Lambda build artifacts
+lambda-code/*.zip
+modules/**/lambda-code.zip
